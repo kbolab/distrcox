@@ -1,0 +1,15 @@
+Package: distrcox
+Type: Package
+Title: Package for simulating Cox proportional hazards distributions
+Version: 0.1
+Date: 2015-01-12
+Author: Nicola Dinapoli
+Maintainer: Nicola Dinapoli <nicola.dinapoli@rm.unicatt.it>
+Description: This package allows to simulate Cox proportional hazards
+    distributions by creating de-novo case series or by using baseline hazards
+    achieved by other Cox models fitted by using coxph function
+License: GPL-2
+Depends:
+    survival
+Imports:
+    survival (>= 2.37-7)
