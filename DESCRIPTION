@@ -10,6 +10,7 @@ Description: This package allows to simulate Cox proportional hazards
     achieved by other Cox models fitted by using coxph function
 License: GPL-2
 Depends:
-    survival
+    survival, muhaz
 Imports:
-    survival (>= 2.37-7)
+    survival (>= 2.37-7), muhaz (>= 1.2.6)
+LazyData: true
